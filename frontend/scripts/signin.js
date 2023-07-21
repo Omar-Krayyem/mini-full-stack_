@@ -1,4 +1,3 @@
-
 document.getElementById("signin_btn").addEventListener('click', getUser);
 
 // Get User
@@ -32,6 +31,3 @@ function getUser(e) {
     })
     .catch((error) => console.log(error));
 }
-
-
-
